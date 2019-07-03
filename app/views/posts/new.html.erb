@@ -1,9 +1,12 @@
+<h1> Create a New Post</h1>
+
+
 <%= form_for(@post) do |f| %>
-  <%= f.label :name %>
-  <%= f.text_field :name, class: 'form-control' %>
+  <p><%= f.label :title %>   </p>
+  <p><%= f.text_field :title, class: 'form-control' %> </p>
 
-  <%= f.label :desc %>
-  <%= f.text_field :desc, class: 'form-control' %>
+ <p> <%= f.label :body %>  </p>
+ <p><%= f.text_area   :body, class: 'form-control' %> </p>
 
-  <%= f.submit yield(:button_text), class: "btn btn-primary" %>
+ <p> <%= f.submit 'submit', class: "button"  %>  </p>
 <% end %>
