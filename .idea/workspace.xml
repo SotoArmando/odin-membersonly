@@ -2,92 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63f2a3c5-9567-4875-8128-4d89de527ac2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.ruby-version" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Gemfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Gemfile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Rakefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app/assets/config/manifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app/assets/images/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app/assets/javascripts/application.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app/assets/javascripts/cable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app/assets/javascripts/channels/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app/assets/stylesheets/application.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app/channels/application_cable/channel.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app/channels/application_cable/connection.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app/controllers/application_controller.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app/controllers/concerns/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app/helpers/application_helper.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app/jobs/application_job.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app/mailers/application_mailer.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app/models/application_record.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app/models/concerns/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app/models/user.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app/views/layouts/application.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app/views/layouts/mailer.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app/views/layouts/mailer.text.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/bin/bundle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/bin/rails" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/bin/rake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/bin/setup" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/bin/spring" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/bin/update" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/bin/yarn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config.ru" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/application.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/boot.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/cable.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/credentials.yml.enc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/database.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/environment.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/environments/development.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/environments/production.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/environments/test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/initializers/application_controller_renderer.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/initializers/assets.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/initializers/backtrace_silencers.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/initializers/content_security_policy.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/initializers/cookies_serializer.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/initializers/filter_parameter_logging.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/initializers/inflections.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/initializers/mime_types.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/initializers/wrap_parameters.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/locales/en.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/puma.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/routes.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/spring.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/storage.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/db/migrate/20190703165418_create_users.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/db/schema.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/db/seeds.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/assets/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/tasks/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/log/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/422.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/500.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/apple-touch-icon-precomposed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/storage/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/test/application_system_test_case.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/test/controllers/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/test/fixtures/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/test/fixtures/files/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/test/fixtures/users.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/test/helpers/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/test/integration/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/test/mailers/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/test/models/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/test/models/user_test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/test/system/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/test/test_helper.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/tmp/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/vendor/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/00/ebb9b307df6f46" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/00/ebb9b307df6f46" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/18/e4bfb703d78a2a" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/18/e4bfb703d78a2a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/3a/176e28aa097d18" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/3a/176e28aa097d18" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/47/317718dac508ed" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/47/317718dac508ed" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/4d/2774753e3c93cb" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/4d/2774753e3c93cb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/9e/43e7913ef45069" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/9e/43e7913ef45069" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/c4/f0ee8706736aba" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/c4/f0ee8706736aba" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/d3/21ab50abdaed26" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/d3/21ab50abdaed26" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/ed/8b9074b775e527" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/ed/8b9074b775e527" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/fb/a9df58ae651131" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/fb/a9df58ae651131" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/fd/178a42641bd823" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/fd/178a42641bd823" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/fd/2d803cba301d2c" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/fd/2d803cba301d2c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-load-path-cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-load-path-cache" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,13 +22,27 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/helpers/sessions_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+            <state relative-caret-position="432">
+              <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -109,26 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+            <state relative-caret-position="540">
+              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -136,17 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/sessions/new.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="108">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -154,17 +68,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="311">
+              <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20190703174415_add_remember_digest_to_users.rb">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="543">
+                <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/sessions/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="207">
+              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -172,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="270">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -220,6 +146,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,45 +159,14 @@
               <item name="MMembersOnly" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MMembersOnly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MMembersOnly" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MMembersOnly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MMembersOnly" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="helpers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MMembersOnly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MMembersOnly" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MMembersOnly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MMembersOnly" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MMembersOnly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MMembersOnly" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -403,13 +299,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4808000" />
+    <option name="totallyTimeSpent" value="4851000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="186" y="141" width="1793" height="1052" extended-state="0" />
-    <editor active="true" />
+    <frame x="60" y="57" width="1793" height="1052" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25449276" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19652174" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -420,9 +315,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2082353" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3070588" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -437,15 +332,15 @@
     <entry file="file://$PROJECT_DIR$/app/Gemfile" />
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="270">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/sessions/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="207">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -458,15 +353,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/sessions_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        <state relative-caret-position="432">
+          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="108">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -479,15 +374,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="311">
+          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        <state relative-caret-position="540">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
         </state>
       </provider>
     </entry>
