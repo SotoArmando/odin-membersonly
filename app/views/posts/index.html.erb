@@ -1,0 +1,37 @@
+<div class="container">
+
+  <% if logged_in? %>
+    <h3>Welcome <%= current_user.name %> </h3>
+    <%= link_to 'logout', sign_out_path, method: :delete, class: 'button-logout' %>
+    <%else %>
+    <%= link_to 'sign_in', sign_in_path, class: 'button-logout' %>
+  <%end %>
+
+  <h1>Latest Posts</h1>
+  <ul>
+  <%@posts.each do |post| %>
+
+  <li>
+    <div class="post">
+      <% if logged_in? %>
+      <h3><span>User:</span> <%= current_user.name %></h3>
+      <%else %>
+
+       <%end %>
+      <p><span>Title:</span> <%= post.title %></p>
+      <p><span>Post:</span> <%= post.body %></p>
+
+    </div>
+
+  </li>
+
+
+
+  <% end %>
+  </ul>
+
+</div>
+
+
+
+

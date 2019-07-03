@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Members only club 
 
-Things you may want to cover:
+### Simple auth system build with rails
 
-* Ruby version
+### Created By 
 
-* System dependencies
+[Isaac](https://github.com/ispirett)  and [Armando](https://github.com/SotoArmando)
 
-* Configuration
+### Run Project
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Clone Repo
+* Run these commands 
+*  ``` bundle install ```
+* ``` rake db:migrate ```
+* ``` rails server```
