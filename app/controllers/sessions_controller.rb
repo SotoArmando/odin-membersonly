@@ -10,10 +10,15 @@ class SessionsController < ApplicationController
         log_in(user)
         remember(user)
         flash[:success] = 'your logged in'
-        redirect_to '/'
+        redirect_to '/index'
       else
         flash[:danger] = 'Wrong password or email'
         render :new
       end
     end
+  def destroy
+    log_out  
+    flash[:success] = 'your logged out'
+    redirect_to '/sign_in'
+  end
 end
