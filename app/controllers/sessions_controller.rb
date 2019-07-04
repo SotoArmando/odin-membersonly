@@ -19,5 +19,5 @@ class SessionsController < ApplicationController
     log_out  
     flash[:success] = 'your logged out'
     redirect_to '/sign_in'
-  end
+  end 
 end

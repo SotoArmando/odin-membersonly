@@ -8,17 +8,21 @@ class PostsController < ApplicationController
     @post = Post.new
   end
   def create
-      @post = Post.new
+      @post = Post.new(post_params)
       @post.user_id = current_user.id 
-      @post.name = params.require(:post).permit(:title)
-      @post.desc = params.require(:post).permit(:body)
       @post.save
+      redirect_to root_path
   end
 
   def edit 
   end
 
   private 
+
+      def post_params
+        params.require(:post).permit(:title, :body)
+      end
+
       def authenticate_user
           unless logged_in?
           flash[:danger] = "Please log in."
