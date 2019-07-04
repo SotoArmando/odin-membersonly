@@ -1,5 +1,5 @@
 class PostsController < ApplicationController
-  before_action :logged_in_user, only: [:create]
+  before_action :authenticate_user, only: [:create]
 
   def index
     @posts = Post.all
@@ -19,7 +19,7 @@ class PostsController < ApplicationController
   end
 
   private 
-      def logged_in_user
+      def authenticate_user
           unless logged_in?
           flash[:danger] = "Please log in."
           redirect_to '/sign_in'
