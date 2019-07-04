@@ -44,13 +44,13 @@ body{
 }
 
 .button-logout{
-  padding: 5px 10px 5px 10px;
+  padding: 5px 14px 5px 14px;
   text-align: center;
-  width: 10em;
+  min-width: 15em;
   height: 2em;
   border-radius: 1em;
   border: 1px solid grey;
-  background: linear-gradient( to right,  #ff9232, grey);
+  background: linear-gradient( to right, #ff0017 , #ff3709, grey);
   color: white;
   font-weight: 800;
   font-size: 1.1em;

@@ -9,7 +9,7 @@ class UsersController < ApplicationController
       flash[:success] =  'Account created'
       log_in(@user)
       remember(@user)
-      redirect_to posts_path
+      redirect_to root_path
     else
       flash[:danger] = "there are some error please resolve them #{@user.errors.full_messages}"
     end
