@@ -31,3 +31,6 @@
 /config/master.key
 .idea
 .idea/workspace.xml
+
+# Ignore master key for decrypting credentials and more.
+tmp/
