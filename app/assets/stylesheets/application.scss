@@ -18,34 +18,41 @@ body{
   background: darkgrey;
 }
 
+* {
+  font-family: 'Literata', serif !important;
+}
+
 .container{
-  border-radius: 2em;
+  
   padding: 2em;
   background: white;
   text-align: center;
-  margin: 0 auto;
-  width: 60%;
+  margin: 5rem auto 0 auto;
+  
+  width: min-content;
 
 
 }
 
 .button{
   text-align: center;
-  width: 10em;
-  height: 2em;
-  border-radius: 1em;
-  border: 1px solid grey;
-  background: linear-gradient( to right,  #ff9232, grey);
+  display: inline;
+  text-decoration: none;
+  border-radius: .25em;
+  min-width: 7rem;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgb(72, 72, 204);
   color: white;
   font-weight: 800;
   font-size: 1.1em;
+  padding: 5px 10px 5px 10px;
 }
 
 .button-logout{
   padding: 5px 10px 5px 10px;
   text-align: center;
-  width: 10em;
-  height: 2em;
+  min-width: 7rem;
+  
   border-radius: 1em;
   border: 1px solid grey;
   background: linear-gradient( to right,  #ff9232, grey);
@@ -60,7 +67,10 @@ li{
  list-style: none;
 }
 
-
+.upbuttonstitle {
+  padding-bottom: .5rem;
+  display: block;
+}
 .post{
 
   border: 1px solid gray;
@@ -76,8 +86,10 @@ li{
 
 input[type='text'], input[type='password']{
 
-  border: 1px solid gray;
-  border-radius: 1em;
-  width: 40em;
-  height: 2em;
+  border: 1px solid rgb(185, 185, 185);
+  border-radius: .25em;
+  width: 20em;
+  padding: 0 0 0 1rem ;
+  height: 2.2em;
+  font-size: 1.1em;
 }

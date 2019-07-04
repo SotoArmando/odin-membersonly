@@ -14,14 +14,17 @@
 
       <p><%= f.label :email %></p>
       <p><%= f.text_field :email %></p>
-
+      <%= link_to 'No an User? Click here and Sign up', posts_path , class: '' %>
       <p><%= f.label :password %></p>
       <p><%= f.password_field :password %></p>
-     <%= f.submit 'Submit', class:'button' %>
+      <%= link_to 'Forgot your Password? Click here and Get it back!', posts_path , class: 'upbuttonstitle' %>
+     <br>
+     <%= f.submit 'Sign in', class:'button' %>
+     <%= link_to 'See All our posts! :)', posts_path , class: 'button' %>
 
 
 <%end  %>
   <br/>
-  <%= link_to 'All posts', posts_path , class: 'button-logout' %>
+  
 </div>
 
