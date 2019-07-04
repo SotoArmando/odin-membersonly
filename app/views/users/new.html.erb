@@ -1,0 +1,21 @@
+<div class="container">
+<h1> Create a New Post</h1>
+
+
+<%= form_for(@user) do |f| %>
+  <p><%= f.label :name %>   </p>
+  <p><%= f.text_field :name, class: 'form-control' %> </p>
+
+  <p><%= f.label :email %>   </p>
+  <p><%= f.email_field :email, class: 'form-control' %> </p>
+
+  <p> <%= f.label :password %>  </p>
+  <p><%= f.password_field  :password, class: 'form-control' %> </p>
+
+  <p> <%= f.label :password_confirmation %>  </p>
+  <p><%= f.password_field  :password_confirmation, class: 'form-control' %> </p>
+
+  <p> <%= f.submit 'submit', class: "button"  %>  </p>
+<% end %>
+
+</div>
