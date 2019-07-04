@@ -3,6 +3,7 @@
   <% if logged_in? %>
     <h3>Welcome <%= current_user.name %> </h3>
     <%= link_to 'logout', sign_out_path, method: :delete, class: 'button-logout' %>
+    <%= link_to 'Create post', new_post_path, class: 'button-logout' %>
     <%else %>
     <%= link_to 'sign_in', sign_in_path, class: 'button-logout' %>
     <%= link_to 'sign_up', sign_up_path, class: 'button-logout' %>

@@ -90,7 +90,12 @@ input[type='text'], input[type='password'], input[type='email']{
   height: 2em;
 
 }
-input[type='text']:focus, input[type='password']:focus, input[type='email']:focus{
+input[type='text']:focus,
+input[type='password']:focus,
+input[type='email']:focus,
+input[type='textarea']:focus
+
+{
 
   transition: border .4s ease-in;
   border: 3px solid crimson;
