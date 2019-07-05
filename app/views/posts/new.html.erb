@@ -1,15 +1,12 @@
-
-<div class="container">
-
 <h1> Create a New Post</h1>
+
+
 <%= form_for(@post) do |f| %>
   <p><%= f.label :title %>   </p>
   <p><%= f.text_field :title, class: 'form-control' %> </p>
 
  <p> <%= f.label :body %>  </p>
- <p><%= f.text_area   :body, class: 'form-control' , rows: 20 ,cols:60 %> </p>
+ <p><%= f.text_area   :body, class: 'form-control' %> </p>
 
  <p> <%= f.submit 'submit', class: "button"  %>  </p>
 <% end %>
-  <%= link_to 'All posts', posts_path , class: 'button-logout' %>
-</div>
