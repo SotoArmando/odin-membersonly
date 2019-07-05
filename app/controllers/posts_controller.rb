@@ -1,5 +1,5 @@
 class PostsController < ApplicationController
-  before_action :logged_in_user, only: [:create]
+  before_action :authenticate, only: [:create]
 
   def index
     @posts = Post.all
@@ -8,22 +8,26 @@ class PostsController < ApplicationController
     @post = Post.new
   end
   def create
-      @post = Post.new
-      @post.user_id = current_user.id 
-      @post.name = params.require(:post).permit(:title)
-      @post.desc = params.require(:post).permit(:body)
-      @post.save
+    @post = Post.new(post_params)
+    @post.user_id = current_user.id 
+    @post.save
+    redirect_to root_path
   end
 
   def edit 
   end
 
-  private 
-      def logged_in_user
-          unless logged_in?
-          flash[:danger] = "Please log in."
-          redirect_to '/sign_up'
-          end 
-      end
+private 
+
+    def post_params
+      params.require(:post).permit(:title, :body)
+    end
+    
+    def authenticate
+        unless logged_in?
+        flash[:danger] = "Please log in."
+        redirect_to '/sign_in'
+        end 
+    end
 
 end

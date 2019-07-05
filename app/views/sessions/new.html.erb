@@ -2,7 +2,7 @@
 
 
 <div class="container">
-  <h1>Sign in</h1>
+  <h1>Sign in :)</h1>
 
   <div>
     <% if logged_in? %>
@@ -22,6 +22,10 @@
 
 <%end  %>
   <br/>
+  <small>Dont have an account? sign up!</small>
+  <p> <%= link_to 'SignUp', sign_up_path , class: 'button-logout' %>       </p>
+
   <%= link_to 'All posts', posts_path , class: 'button-logout' %>
+
 </div>
 

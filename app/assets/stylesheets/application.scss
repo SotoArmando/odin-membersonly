@@ -15,13 +15,15 @@
  */
 
 body{
-  background: darkgrey;
+  background-image: url("http://wallpapercave.com/wp/4VKVpjo.jpg");
+  background-size: cover;
+  text-shadow: 1px 1px #c6c6c6;
 }
 
 .container{
   border-radius: 2em;
   padding: 2em;
-  background: white;
+  color: white;
   text-align: center;
   margin: 0 auto;
   width: 60%;
@@ -35,20 +37,20 @@ body{
   height: 2em;
   border-radius: 1em;
   border: 1px solid grey;
-  background: linear-gradient( to right,  #ff9232, grey);
+  background: linear-gradient( to right, #ff0017 , #ff3709, grey);
   color: white;
   font-weight: 800;
   font-size: 1.1em;
 }
 
 .button-logout{
-  padding: 5px 10px 5px 10px;
+  padding: 5px 14px 5px 14px;
   text-align: center;
-  width: 10em;
+  min-width: 15em;
   height: 2em;
   border-radius: 1em;
   border: 1px solid grey;
-  background: linear-gradient( to right,  #ff9232, grey);
+  background: linear-gradient( to right, #ff0017 , #ff3709, grey);
   color: white;
   font-weight: 800;
   font-size: 1.1em;
@@ -60,7 +62,13 @@ li{
  list-style: none;
 }
 
-
+label{
+  font-size: 1.5em;
+  font-weight: 800;
+}
+p{
+  color: white;
+}
 .post{
 
   border: 1px solid gray;
@@ -74,10 +82,22 @@ li{
 
 }
 
-input[type='text'], input[type='password']{
+input[type='text'], input[type='password'], input[type='email']{
 
   border: 1px solid gray;
   border-radius: 1em;
   width: 40em;
   height: 2em;
+
+}
+input[type='text']:focus,
+input[type='password']:focus,
+input[type='email']:focus,
+input[type='textarea']:focus
+
+{
+
+  transition: border .4s ease-in;
+  border: 3px solid crimson;
+
 }
