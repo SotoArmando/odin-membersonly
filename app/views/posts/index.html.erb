@@ -3,10 +3,8 @@
   <% if logged_in? %>
     <h3>Welcome <%= current_user.name %> </h3>
     <%= link_to 'logout', sign_out_path, method: :delete, class: 'button-logout' %>
-    <%= link_to 'Create post', new_post_path, class: 'button-logout' %>
     <%else %>
     <%= link_to 'sign_in', sign_in_path, class: 'button-logout' %>
-    <%= link_to 'sign_up', sign_up_path, class: 'button-logout' %>
   <%end %>
 
   <h1>Latest Posts</h1>
@@ -16,7 +14,7 @@
   <li>
     <div class="post">
       <% if logged_in? %>
-      <h3><span>User:</span> <%= post_owner(post.user_id)%></h3>
+      <h3><span>User:</span> <%= current_user.name %></h3>
       <%else %>
 
        <%end %>
