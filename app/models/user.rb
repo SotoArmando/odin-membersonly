@@ -8,9 +8,11 @@ class User < ApplicationRecord
     end
  
     def User.digest(string)
-         cost = ActiveModel::SecurePassword.min_cost ? BCrypt::Engine::MIN_COST :
-                                                       BCrypt::Engine.cost
-         BCrypt::Password.create(string, cost:cost)
+        return false if string.nil?
+        Digest::SHA1.hexdigest(string)
+         # cost = ActiveModel::SecurePassword.min_cost ? BCrypt::Engine::MIN_COST :
+         #                                               BCrypt::Engine.cost
+         # BCrypt::Password.create(string, cost:cost)
     end
 
     def remember
@@ -20,6 +22,12 @@ class User < ApplicationRecord
 
     def delete_remember_token
         update_attribute(:remember_digest, nil)
+    end
+
+    def decrypt(token)
+       remember = Digest::SHA1.hexdigest(token)
+       remember_digest == remember
+
     end
 
     private
